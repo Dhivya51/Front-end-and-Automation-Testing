@@ -7,8 +7,24 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const increase=() =>{
+    setCount(count + 1)
+  }
+  const decrease=() =>{
+    setCount(count - 1)
+  }
+  const reset=() =>{
+    setCount(0)
+  }
+  }
+
   return (
-    <>
+    <div>
+      <h2>Counter Application</h2>
+      <span>{count}</span><br></br>
+      <button onclick={increase}>Increase</button>
+      <button>Decrease</button>
+      <button>Reset</button>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -115,8 +131,8 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
-    </>
+    </div> 
   )
-}
+
 
 export default App
