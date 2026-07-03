@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #fcfcfc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Headings Styling */
+h1 {
+    text-align: center;
+    color: #1a365d;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c5282;
+    border-left: 5px solid #2c5282;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* Image Banner Styling */
+.banner-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Divider Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 25px 0;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid #cbd5e0;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c5282;
+    color: white;
+    font-weight: bold;
+}
+
+/* Table Header Row For "Staffs Details" */
+.table-title {
+    background-color: #1a365d;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Alternating Row Colors for Table */
+tr:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Link Styling */
+.college-link {
+    display: inline-block;
+    color: #2b6cb0;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.college-link:hover {
+    text-decoration: underline;
+    color: #1a365d;
+}

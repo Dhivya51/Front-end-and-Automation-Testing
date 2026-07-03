@@ -1,0 +1,70 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>Student Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <div class="container">
+            <label for="first-name">First Name*</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">Last Name*</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <br><br>
+            <label for="Date-oF-Birth">Date of Birth*</label>
+            <input type="date" id="Date-oF-Birth" name="Date-oF-Birth" required>
+            <br>
+            <br>
+            <label for="gender">Gender*</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <label for="email">Email*</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+            <label for="city">City*</label>
+            <input type="text" id="city" name="city">
+            <br>
+            <br>
+            <label for="state">State*</label>
+            <input type="text" id="state" name="state">
+            <br>
+            <br>
+            <label for="college-name">College Name*</label>
+            <input type="text" id="college-name" name="college-name">
+            <br>
+            <br>
+            <label for ="department">Department*</label>
+            <input type="radio" id="IT" name="department" value="IT">
+            <label for="IT">IT</label>
+            <input type="radio" id="CSE" name="department" value="CSE">
+            <label for="CSE">CSE</label>
+            <input type="radio" id="ECE" name="department" value="ECE">
+            <label for="ECE">ECE</label>
+            <br>
+            <br>
+            <label for="course">Course</label>
+            <select id="course" name="course">
+                <option value="">---Select Course---</option>
+                <option value="java-programming">Java Programming</option>
+                <option value="python-programming">Python Programming</option>
+                <option value="C-programming">C Programming</option>
+                <option value="C++-programming">C++ Programming</option>
+                <option value="data-science">Data Science</option>
+                <option value="UI-UX-design">UI/UX Design</option>
+            </select>
+
+        </div>
+        <div class="button-group">
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        </div>
+    </body>
+</html>

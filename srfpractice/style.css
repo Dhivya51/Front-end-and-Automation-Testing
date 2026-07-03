@@ -1,0 +1,24 @@
+body{
+    margin :0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    background-color:teal;
+}
+h1{
+    text-align:center;
+    color:white;
+}
+.container{
+    width:600px;
+    padding:30px;
+    border-radius:15px;
+    margin:20px auto;
+    color:white;
+}
+.button-group{
+   display: flex;
+    justify-content: center; 
+    gap: 100px;              
+    margin-top: 20px;
+    margin-bottom:40px;
+}
