@@ -1,0 +1,58 @@
+.account-page{
+    padding:40px;
+    background:#F8F5F0;
+    min-height:100vh;
+}
+
+.profile-card{
+    width:320px;
+    margin:auto;
+    text-align:center;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.profile-card img{
+    width:120px;
+    border-radius:50%;
+}
+
+.profile-card h2{
+    margin-top:15px;
+    color:#0B3D2E;
+}
+
+.profile-card p{
+    color:gray;
+}
+
+.account-options{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:40px;
+}
+
+.option-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.option-card:hover{
+    transform:translateY(-8px);
+}
+
+.option-card h3{
+    color:#D4AF37;
+}
+
+.option-card p{
+    margin-top:10px;
+}

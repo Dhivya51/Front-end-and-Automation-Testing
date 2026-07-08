@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 18px 40px;
+  color: white;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #D4AF37;
+}
+
+.logo span {
+  margin-left: 8px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #D4AF37;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-icons input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.nav-icons button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #D4AF37;
+  color: black;
+  transition: 0.3s;
+}
+
+.nav-icons button:hover {
+  transform: scale(1.1);
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  position: relative;
+  color: white;
+  font-size: 24px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.icon span {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  background: crimson;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-btn{
+    background:none;
+    border:none;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+.menu-btn:hover{
+    color:#D4AF37;
+}

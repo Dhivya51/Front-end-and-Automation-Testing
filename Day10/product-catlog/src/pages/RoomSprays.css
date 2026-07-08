@@ -1,0 +1,205 @@
+/* ===== Room Sprays Page ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.roomsprays-page{
+    width:100%;
+    min-height:100vh;
+    background:#f8f8f8;
+    padding:30px;
+}
+
+/* Banner */
+
+.banner{
+    background:linear-gradient(135deg,#8e44ad,#c0392b);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+    border-radius:15px;
+    margin-bottom:35px;
+}
+
+.banner h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.banner p{
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* Search */
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    margin-bottom:35px;
+}
+
+.search-box input{
+    width:500px;
+    max-width:90%;
+    padding:14px 20px;
+    border:1px solid #ccc;
+    border-radius:30px;
+    outline:none;
+    font-size:16px;
+}
+
+.search-box input:focus{
+    border:2px solid #8e44ad;
+}
+
+/* Product Grid */
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+/* Product Card */
+
+.product-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 6px 18px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(0,0,0,.2);
+}
+
+.product-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+}
+
+.product-card h3{
+    margin:15px;
+    color:#333;
+    font-size:22px;
+}
+
+.rating{
+    margin:0 15px;
+    font-size:18px;
+}
+
+.price{
+    margin:12px 15px;
+    color:#e91e63;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    padding:15px;
+}
+
+.cart-btn{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#6c5ce7;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.cart-btn:hover{
+    background:#4834d4;
+}
+
+.wish-btn{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#ff4081;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.wish-btn:hover{
+    background:#d81b60;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.banner h1{
+    font-size:30px;
+}
+
+.banner p{
+    font-size:16px;
+}
+
+.product-grid{
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+
+.search-box input{
+    width:100%;
+}
+
+.buttons{
+    flex-direction:column;
+}
+
+}
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  color: red;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.wishlist-icon:hover {
+  background: red;
+  color: white;
+  transform: scale(1.1);
+}

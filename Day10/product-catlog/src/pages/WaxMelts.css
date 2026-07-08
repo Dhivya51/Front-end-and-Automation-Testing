@@ -1,0 +1,179 @@
+/* ===========================
+   Wax Melts Page
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.wax-page{
+    background:#f9f7f3;
+    min-height:100vh;
+    padding:40px;
+}
+
+/* Banner */
+
+.banner{
+    background:linear-gradient(135deg,#6d4c41,#a1887f);
+    color:#fff;
+    text-align:center;
+    padding:60px 20px;
+    border-radius:15px;
+    margin-bottom:40px;
+}
+
+.banner h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.banner p{
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* Search Box */
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    margin-bottom:35px;
+}
+
+.search-box input{
+    width:500px;
+    max-width:90%;
+    padding:14px 20px;
+    border:2px solid #ddd;
+    border-radius:30px;
+    outline:none;
+    font-size:16px;
+}
+
+.search-box input:focus{
+    border-color:#6d4c41;
+}
+
+/* Product Grid */
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+/* Product Card */
+
+.product-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.25);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.product-card h3{
+    margin:15px;
+    color:#333;
+    font-size:22px;
+}
+
+.rating{
+    margin:0 15px;
+    font-size:18px;
+}
+
+.price{
+    margin:12px 15px;
+    color:#6d4c41;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Buttons */
+
+.buttons{
+    display:flex;
+    gap:10px;
+    padding:15px;
+}
+
+.cart-btn{
+    flex:1;
+    background:#6d4c41;
+    color:#fff;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.cart-btn:hover{
+    background:#4e342e;
+}
+
+.wish-btn{
+    flex:1;
+    background:#e91e63;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.wish-btn:hover{
+    background:#c2185b;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.wax-page{
+    padding:20px;
+}
+
+.banner h1{
+    font-size:30px;
+}
+
+.banner p{
+    font-size:16px;
+}
+
+.product-grid{
+    grid-template-columns:1fr;
+}
+
+.buttons{
+    flex-direction:column;
+}
+
+.search-box input{
+    width:100%;
+}
+
+}

@@ -1,0 +1,31 @@
+.details-container{
+    display:flex;
+    gap:50px;
+    padding:60px;
+    align-items:center;
+}
+
+.details-image{
+    width:450px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.details-content{
+    flex:1;
+}
+
+.details-content h1{
+    color:#0B3D2E;
+    font-size:40px;
+}
+
+.details-content h2{
+    color:#D4AF37;
+    margin:20px 0;
+}
+
+.details-content p{
+    margin:15px 0;
+    line-height:1.7;
+}

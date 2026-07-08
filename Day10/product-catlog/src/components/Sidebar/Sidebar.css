@@ -1,0 +1,45 @@
+.sidebar{
+    position:fixed;
+    top:0;
+    left:-300px;
+    width:280px;
+    height:100%;
+    background:white;
+    box-shadow:4px 0 12px rgba(0,0,0,.3);
+    padding:25px;
+    transition:.4s;
+    overflow-y:auto;
+    z-index:9999;
+}
+
+.sidebar.active{
+    left:0;
+}
+
+.sidebar h2{
+    color:#0B3D2E;
+}
+
+.sidebar h3{
+    margin-top:25px;
+    color:#D4AF37;
+}
+
+.sidebar a{
+    display:block;
+    padding:8px 0;
+    text-decoration:none;
+    color:#333;
+}
+
+.sidebar a:hover{
+    color:#0B3D2E;
+}
+
+.close-btn{
+    float:right;
+    border:none;
+    background:none;
+    font-size:22px;
+    cursor:pointer;
+}
