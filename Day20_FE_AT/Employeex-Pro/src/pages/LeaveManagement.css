@@ -1,0 +1,44 @@
+.leave-management{
+    padding:30px;
+}
+
+.leave-management h1{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.leave-management table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+.leave-management th,
+.leave-management td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+.leave-management th{
+    background:#2563eb;
+    color:white;
+}
+
+.leave-management button{
+    margin:4px;
+    padding:8px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.leave-management button:first-child{
+    background:#16a34a;
+    color:white;
+}
+
+.leave-management button:last-child{
+    background:#dc2626;
+    color:white;
+}

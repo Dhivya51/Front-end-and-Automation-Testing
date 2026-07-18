@@ -1,0 +1,73 @@
+.settings-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #F8FAFC;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+.settings-page h1 {
+    width: 100%;
+    max-width: 700px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #1E293B;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* Card */
+.settings-card {
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1E293B;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2563EB;
+}
+
+/* Button */
+.settings-card button {
+    width: 100%;
+    padding: 13px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.settings-card button:hover {
+    background: #1D4ED8;
+}

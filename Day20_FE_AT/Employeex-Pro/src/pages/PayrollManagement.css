@@ -1,0 +1,38 @@
+.payroll-page{
+    padding:30px;
+}
+
+.payroll-form{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.payroll-form input{
+    padding:10px;
+}
+
+.payroll-form button{
+    padding:10px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#2563eb;
+    color:white;
+}

@@ -1,0 +1,39 @@
+.daily-task-page{
+    padding:30px;
+}
+
+.daily-task-page h1{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.daily-task-page table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+.daily-task-page th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+}
+
+.daily-task-page td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+.daily-task-page button{
+    background:#16a34a;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.daily-task-page button:hover{
+    background:#15803d;
+}

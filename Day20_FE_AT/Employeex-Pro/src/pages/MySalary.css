@@ -1,0 +1,42 @@
+.salary-page{
+    padding:30px;
+    display:flex;
+    justify-content:center;
+}
+
+.salary-card{
+    width:450px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.salary-card h1{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.salary-card p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.salary-card h2{
+    color:#16a34a;
+}
+.download-btn{
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.download-btn:hover{
+    background:#1d4ed8;
+}

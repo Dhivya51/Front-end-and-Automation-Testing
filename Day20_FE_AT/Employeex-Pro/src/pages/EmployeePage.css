@@ -1,0 +1,277 @@
+css
+.employee-page {
+    padding: 35px;
+    background: #F8FAFC;
+    min-height: 100vh;
+}
+
+/* ================= HEADER ================= */
+
+.employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.employee-header h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1E293B;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* ================= BUTTONS ================= */
+
+.add-btn,
+.export-btn,
+.pdf-btn {
+
+    border: none;
+    padding: 12px 22px;
+    border-radius: 12px;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: .35s;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.add-btn {
+
+    background: linear-gradient(135deg,#2563EB,#4F46E5);
+
+}
+
+.export-btn {
+
+    background: linear-gradient(135deg,#10B981,#059669);
+
+}
+
+.pdf-btn {
+
+    background: linear-gradient(135deg,#EF4444,#DC2626);
+
+}
+
+.add-btn:hover,
+.export-btn:hover,
+.pdf-btn:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 15px 30px rgba(37,99,235,.25);
+
+}
+
+/* ================= SEARCH ================= */
+
+.search-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+    flex-wrap: wrap;
+
+}
+.search-container input {
+
+    width: 280px;
+    height: 42px;
+
+    padding: 10px 15px;
+
+    border: 1px solid #E2E8F0;
+
+    border-radius: 10px;
+
+    background: white;
+
+    font-size: 15px;
+
+    transition: .3s;
+
+    flex: none;
+
+}
+
+.search-container input:focus {
+
+    outline: none;
+
+    border-color: #2563EB;
+
+    box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+
+}
+
+.search-container select {
+
+    width: 220px;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    border: 1px solid #E2E8F0;
+
+    background: white;
+
+    cursor: pointer;
+
+}
+
+/* ================= TABLE ================= */
+
+.table-container{
+    width:100%;
+    overflow-x:auto;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    background:#fff;
+}
+
+.employee-table{
+    width:100%;
+    min-width:1100px;
+    border-collapse:collapse;
+}
+
+.employee-table th,
+.employee-table td{
+    padding:14px 10px;
+    text-align:center;
+    font-size:15px;
+    white-space:nowrap;
+}
+
+.employee-table td:nth-child(4){
+    white-space:normal;
+}
+
+.employee-table td:nth-child(6){
+    font-size:14px;
+}
+/* ================= ACTION BUTTONS ================= */
+
+.edit-btn {
+
+    background: #10B981;
+
+    color: white;
+
+    border: none;
+
+     padding:6px 10px;
+    font-size:13px;
+    
+    border-radius: 8px;
+
+    margin-right: 8px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.edit-btn:hover {
+
+    background: #059669;
+
+    transform: translateY(-2px);
+
+}
+
+.delete-btn {
+
+    background: #EF4444;
+
+    color: white;
+
+    border: none;
+
+    padding:6px 10px;
+    font-size:13px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.delete-btn:hover {
+
+    background: #DC2626;
+
+    transform: translateY(-2px);
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+.employee-header{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:20px;
+
+}
+
+.header-buttons{
+
+flex-wrap:wrap;
+
+}
+
+.search-container{
+
+flex-direction:column;
+
+}
+
+.search-container select{
+
+width:100%;
+
+}
+
+.employee-table{
+
+display:block;
+
+overflow-x:auto;
+
+}
+
+}
+.employee-page{
+    width:100%;
+    overflow-x:hidden;
+    box-sizing:border-box;
+}

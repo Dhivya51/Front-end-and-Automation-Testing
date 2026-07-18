@@ -1,0 +1,42 @@
+.attendance-page{
+    padding:30px;
+}
+
+.attendance-page h1{
+    margin-bottom:20px;
+}
+
+.attendance-form{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.attendance-form input,
+.attendance-form select{
+    padding:10px;
+}
+
+.attendance-form button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#2563eb;
+    color:white;
+}

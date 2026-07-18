@@ -1,0 +1,44 @@
+.settings-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#f5f7fb;
+}
+
+.settings-card{
+    width:450px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.settings-card h1{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:20px;
+}
+
+.settings-card input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.settings-card button{
+    width:100%;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.settings-card button:hover{
+    background:#1d4ed8;
+}

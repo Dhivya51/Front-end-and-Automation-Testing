@@ -1,0 +1,109 @@
+.department-page{
+    padding:30px;
+    background:#f4f7fc;
+    min-height:100vh;
+}
+
+.department-page h1{
+    color:#2563eb;
+    margin-bottom:25px;
+}
+
+.department-form{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+}
+
+.department-form input{
+    flex:1;
+    min-width:220px;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.department-form button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.department-form button:hover{
+    background:#1d4ed8;
+}
+
+.department-table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.department-table th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+}
+
+.department-table td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+.department-table tr:hover{
+    background:#f9fafb;
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+@media(max-width:768px){
+
+.department-form{
+    flex-direction:column;
+}
+
+.department-form input,
+.department-form button{
+    width:100%;
+}
+
+.department-table{
+    display:block;
+    overflow-x:auto;
+}
+
+}
+.edit-btn{
+    background:#39fc4a;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-right:8px;
+}
+
+.edit-btn:hover{
+    background:#39fc4a;
+}
